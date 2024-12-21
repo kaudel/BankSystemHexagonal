@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F00023BD-1D9B-4B4C-A7EC-B27B8F6F9BAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E1C44879-34A8-4836-B0EF-7F8BEF4628F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSystem.Domain", "src\Core\BankingSystem.Domain\BankingSystem.Domain.csproj", "{17B907AD-0375-4784-9A40-39FA2A5CBA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSystem.Application", "src\Core\BankingSystem.Application\BankingSystem.Application.csproj", "{34225C66-22B4-4CFB-994B-21AA0E92E1D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B907AD-0375-4784-9A40-39FA2A5CBA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B907AD-0375-4784-9A40-39FA2A5CBA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B907AD-0375-4784-9A40-39FA2A5CBA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B907AD-0375-4784-9A40-39FA2A5CBA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34225C66-22B4-4CFB-994B-21AA0E92E1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34225C66-22B4-4CFB-994B-21AA0E92E1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34225C66-22B4-4CFB-994B-21AA0E92E1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34225C66-22B4-4CFB-994B-21AA0E92E1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1C44879-34A8-4836-B0EF-7F8BEF4628F0} = {F00023BD-1D9B-4B4C-A7EC-B27B8F6F9BAB}
+		{17B907AD-0375-4784-9A40-39FA2A5CBA99} = {E1C44879-34A8-4836-B0EF-7F8BEF4628F0}
+		{34225C66-22B4-4CFB-994B-21AA0E92E1D5} = {E1C44879-34A8-4836-B0EF-7F8BEF4628F0}
+	EndGlobalSection
+EndGlobal
